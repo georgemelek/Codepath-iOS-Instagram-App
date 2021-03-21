@@ -154,28 +154,28 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="36.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MJp-EQ-PwR">
-                                                    <rect key="frame" x="16" y="8" width="58" height="20"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MJp-EQ-PwR">
+                                                    <rect key="frame" x="16.000000000000004" y="7.9999999999999982" width="44.333333333333343" height="20.333333333333329"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" misplaced="YES" text="This is a comment" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aod-iN-UOo">
-                                                    <rect key="frame" x="82" y="8" width="324" height="20"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="This is a comment" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aod-iN-UOo">
+                                                    <rect key="frame" x="68.333333333333314" y="7.9999999999999982" width="138.33333333333337" height="20.333333333333329"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="MJp-EQ-PwR" firstAttribute="top" secondItem="CMU-Fv-peT" secondAttribute="top" constant="8" id="HXK-FF-y7V"/>
-                                                <constraint firstItem="MJp-EQ-PwR" firstAttribute="leading" secondItem="CMU-Fv-peT" secondAttribute="leading" constant="16" id="Kvx-cZ-cSU"/>
-                                                <constraint firstItem="Aod-iN-UOo" firstAttribute="leading" secondItem="MJp-EQ-PwR" secondAttribute="trailing" constant="8" id="RHB-ca-zCn"/>
-                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="MJp-EQ-PwR" secondAttribute="bottom" constant="8" id="Sta-eG-hdW"/>
-                                                <constraint firstItem="Aod-iN-UOo" firstAttribute="top" secondItem="CMU-Fv-peT" secondAttribute="top" constant="8" id="jvL-fx-gv7"/>
-                                                <constraint firstAttribute="trailing" secondItem="Aod-iN-UOo" secondAttribute="trailing" constant="8" id="pqe-tO-T6B"/>
-                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Aod-iN-UOo" secondAttribute="bottom" constant="8" id="tKt-ev-YCN"/>
-                                                <constraint firstItem="Aod-iN-UOo" firstAttribute="leading" secondItem="MJp-EQ-PwR" secondAttribute="trailing" constant="8" id="tyS-Fs-aXh"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="MJp-EQ-PwR" secondAttribute="bottom" constant="8" id="20n-Cb-uPt"/>
+                                                <constraint firstItem="MJp-EQ-PwR" firstAttribute="top" secondItem="CMU-Fv-peT" secondAttribute="top" constant="8" id="7b9-w2-zrc"/>
+                                                <constraint firstItem="Aod-iN-UOo" firstAttribute="leading" secondItem="MJp-EQ-PwR" secondAttribute="trailing" constant="8" id="HwG-NA-l51"/>
+                                                <constraint firstItem="Aod-iN-UOo" firstAttribute="leading" secondItem="MJp-EQ-PwR" secondAttribute="trailing" constant="8" id="b3I-bw-APQ"/>
+                                                <constraint firstItem="MJp-EQ-PwR" firstAttribute="leading" secondItem="CMU-Fv-peT" secondAttribute="leading" constant="16" id="iVn-V9-f1J"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Aod-iN-UOo" secondAttribute="bottom" constant="8" id="pNx-XM-j0q"/>
+                                                <constraint firstItem="Aod-iN-UOo" firstAttribute="top" secondItem="CMU-Fv-peT" secondAttribute="top" constant="8" id="xg6-Rz-7ep"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Aod-iN-UOo" secondAttribute="trailing" constant="8" id="zP3-Qj-QsI"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -184,14 +184,14 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AddCommentCell" id="p4J-24-q8a">
-                                        <rect key="frame" x="0.0" y="445.66666793823242" width="414" height="59.666667938232422"/>
+                                        <rect key="frame" x="0.0" y="445.66666793823242" width="414" height="58.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="p4J-24-q8a" id="6tf-pa-YIP">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="59.666667938232422"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="58.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add a comment..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BoZ-Ux-fLy">
-                                                    <rect key="frame" x="20" y="19" width="366" height="21.666666666666671"/>
+                                                    <rect key="frame" x="20" y="19" width="366" height="20.666666666666671"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
